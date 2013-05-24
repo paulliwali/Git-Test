@@ -1,4 +1,7 @@
 test
 ====
 
-Used to test and learn Git
+A test public repository for testing, and learning the in's and out's of Git
+
+
+

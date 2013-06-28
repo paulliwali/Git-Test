@@ -9,4 +9,7 @@ Will begin learning git using the git documentation
 
 > http://git-scm.com/documentation
 
+### 28/06/2013 Log #2:
+Starting from Chapter 2: Git Basics
+
 

@@ -4,12 +4,12 @@ A public repository for testing, and learning the in's and out's of Git
 
 ## Timeline
 
-### 23/05/2013 Log #1:
+### 05/23/2013 Log #1:
 Will begin learning git using the git documentation 
 
 > http://git-scm.com/documentation
 
-### 28/06/2013 Log #2:
+### 06/28/2013 Log #2:
 Starting from Chapter 2: Git Basics
 
 **Learned Basic Git Workflow**
@@ -44,5 +44,28 @@ Starting from Chapter 2: Git Basics
 
 - ```git remote -v```
 	- gives a list of remote handles, ```-v``` gives the URL list
-- ```git remote add [shorname] [url]
+- ```git remote add [shortname] [url]```
+	- adding a remote repository
+- ```git push [remote-name] [branch-name]```
+	- will push it the repository back to the remote for sharing
+- ```git remote rename```
+	- to rename the remote's shortname
+- ```git remote rm [shortname]```
+	- to remove the remote 
+
+### 07/16/2013 Log #3:
+Continuing Chapter 2: Git Basics
+
+**Tagging**
+
+Useful to tag certain points in history as important. 
+- ```git tag -l 'v1.4.2.*'```
+	- list tags with starting of v1.4.2
+- ```git tag -a v1.4 -m 'my version 1.4'```
+	- create an annotated tag
+	- replace ```-a``` with ```-s``` to sign tags with GPG
+- ```git show v1.4```
+	- shows the specific tag data
+- ```git push origin --tags
+	- push tags onto remote servers for sharing
 

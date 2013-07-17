@@ -82,4 +82,10 @@ Chapter 3: Git Branching
 
 **Basic Branching and Merging**
 
-- 
+- A basic branching workflow would include ```git checkout -b [branch-name]``` to make and checkout to the new branch
+- Then move back to master branch with ```git chekcout master```
+- Create another branch with ```git checkout -b [new-branch-name]```
+- Merge the [new-branch-name] with [master] by ```git checkout master``` then ```git merge [new-branch-name]``` then ```git branch -d [new-branch-name]``` if its not needed anymore
+
+**Branch Management**
+

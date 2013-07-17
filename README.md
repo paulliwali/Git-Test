@@ -71,3 +71,15 @@ Useful to tag certain points in history as important.
 
 Chapter 3: Git Branching
 
+- The most important concept utilized in git, allows divergence of different histories of the repository
+
+**Git Branching**
+
+- ```git branch [branch-name]```
+	- makes a new branch
+- ```git checkout [branch-name]```
+	- switches to the branch
+
+**Basic Branching and Merging**
+
+- 

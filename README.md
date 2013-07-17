@@ -69,3 +69,5 @@ Useful to tag certain points in history as important.
 - ```git push origin --tags
 	- push tags onto remote servers for sharing
 
+Chapter 3: Git Branching
+

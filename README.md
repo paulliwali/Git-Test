@@ -52,7 +52,7 @@ Starting from Chapter 2: Git Basics
 	- to rename the remote's shortname
 - ```git remote rm [shortname]```
 	- to remove the remote 
-- ```git remote set-url orgin git@github.com/username/repo.git```
+- ```git remote set-url orgin git@github.com:username/repo.git```
 	- to update the orign with `ssh` connection instead of `https`
 
 ### 07/16/2013 Log #3:
@@ -68,7 +68,7 @@ Useful to tag certain points in history as important.
 	- replace ```-a``` with ```-s``` to sign tags with GPG
 - ```git show v1.4```
 	- shows the specific tag data
-- ```git push origin --tags
+- `git push origin --tags`
 	- push tags onto remote servers for sharing
 
 Chapter 3: Git Branching

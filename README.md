@@ -52,6 +52,8 @@ Starting from Chapter 2: Git Basics
 	- to rename the remote's shortname
 - ```git remote rm [shortname]```
 	- to remove the remote 
+- ```git remote set-url orgin git@github.com/username/repo.git```
+	- to update the orign with `ssh` connection instead of `https`
 
 ### 07/16/2013 Log #3:
 Continuing Chapter 2: Git Basics

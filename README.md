@@ -1,4 +1,4 @@
-# Git-Test
+# testing-git
 
 A public repository for testing, and learning the in's and out's of Git
 
